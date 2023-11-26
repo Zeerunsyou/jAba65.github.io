@@ -71,6 +71,8 @@ footer.fusion-footer-widget-area.fusion-widget-area{
 
 .wp-night-mode-on div#forum-51{
   margin: 0;
+  box-shadow: none;
+  background: none;
 }
 
 .wp-night-mode-on #af-wrapper #forum-search{
