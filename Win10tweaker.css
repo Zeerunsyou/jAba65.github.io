@@ -143,3 +143,7 @@ footer.fusion-footer-widget-area.fusion-widget-area{
 #forum-header,.fusion-text{
   animation: 0.8s AnimationFromUpToDown;
 }
+
+.wp-night-mode-on #af-wrapper .post-element{
+  border-color: rgb(63 63 86) !important;
+}
