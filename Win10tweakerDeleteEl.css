@@ -14,3 +14,8 @@ footer.fusion-footer-widget-area.fusion-widget-area {
 #af-wrapper #read-unread {
     display: none;
 }
+
+.to-top-right #toTop {
+    display: none;
+    right: 75px;
+}
