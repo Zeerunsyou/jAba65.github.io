@@ -19,3 +19,11 @@ footer.fusion-footer-widget-area.fusion-widget-area {
     display: none;
     right: 75px;
 }
+
+#af-wrapper #forum-breadcrumbs {
+    display: none !important;
+}
+
+#af-wrapper #bottom-navigation {
+    display: none !important;
+}
