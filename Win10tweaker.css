@@ -2,7 +2,7 @@
   --mainColor: rgb(38 39 54);
   --mainBackgroundColor:linear-gradient(279deg, rgb(21, 22, 31), rgb(72, 48, 73)) no-repeat no-repeat;
   --mainTextColor: rgb(224 224 224);
-  --borderColor rgb(47 47 66);
+  --borderColor: rgb(47 47 66);
 }
 .wp-night-mode-on .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header {
   background: var(--mainColor)!important;
