@@ -4,16 +4,6 @@
   --mainTextColor: rgb(224 224 224);
   --borderColor rgb(47 47 66);
 }
-@keyframes AnimationFromUpToDown{
-  from{
-    transform: translateY(-120px);
-    opacity: 0;
-  }
-  to{
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
 .wp-night-mode-on .fusion-mobile-menu-design-modern.fusion-header-v1 .fusion-header {
   background: var(--mainColor)!important;
 }
