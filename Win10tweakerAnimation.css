@@ -1,0 +1,28 @@
+/*АНИМАЦИИ*/
+@keyframes AnimationFromLeftToRight{
+  from{
+    transform: translateX(-171px);
+    opacity: 0;
+  }
+  to{
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes AnimationFromUpToDown{
+  from{
+    transform: translateY(-120px);
+    opacity: 0;
+  }
+  to{
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.title-element,.content-container{
+  animation: 0.8s AnimationFromLeftToRight;
+}
+#forum-header,.fusion-text{
+  animation: 0.8s AnimationFromUpToDown;
+}
