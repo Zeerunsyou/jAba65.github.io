@@ -7,6 +7,8 @@
 
 :root {
     --app-bg: url(https://i.giphy.com/YOexokCCddG4HKLuNW.webp);
+    --blur-bg: 40px;
+    --brightness-bg: 0.3;
     --border-main: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -82,7 +84,7 @@ body {
 
 /* добавляет блюр и затемнение на задний фон */
 .bg__12180 {
-    backdrop-filter: blur(40px) brightness(0.3);
+    backdrop-filter: blur(var(--blur-bg)) brightness(var(--brightness-bg));
 }
 
 /* убирает задний цвет для гифки */
