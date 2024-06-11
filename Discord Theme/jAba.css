@@ -8,7 +8,7 @@
 :root {
     --app-bg: url(https://i.giphy.com/YOexokCCddG4HKLuNW.webp);
     --blur-bg: 40px;
-    --brightness-bg: 0.3;
+    --brightness-bg: 0.5;
     --border-main: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -842,4 +842,8 @@ button[class*="lookFilled__950dd"]:hover {
 
 .resizeHandle_b0065e {
     background-color: transparent;
+}
+
+.layer__6b5c3 {
+    backdrop-filter: blur(15px);
 }
