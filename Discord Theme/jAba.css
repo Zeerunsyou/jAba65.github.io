@@ -265,6 +265,10 @@ body {
     pointer-events: none;
     z-index: -1;
 }
+/* фикс когда открыта картинка */
+#image-context[class*="menu__088f7"] {
+    backdrop-filter: blur(15px) brightness(var(--brightness-bg));
+}
 .menu__088f7:not(.menu__13d0c) .submenu_aed9ee:before {
     width: calc(100% - 16px);
     left: 8px;
