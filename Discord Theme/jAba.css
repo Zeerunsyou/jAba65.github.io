@@ -398,7 +398,7 @@ a.anchor_c8ddc0 > span:not(.username__4a6f7) {
 }
 /* семейный центр */
 .container_d5dec4,
-.container__7d3e2,
+.container_db1b74,
 .container__5a2c3 {
     background: rgba(100, 100, 100, 0.1);
     border: 1px solid var(--background-secondary-alt);
@@ -846,4 +846,8 @@ button[class*="lookFilled__950dd"]:hover {
 
 .resizeHandle_b0065e {
     background-color: transparent;
+}
+
+.vc-notification {
+    backdrop-filter: blur(15px);
 }
