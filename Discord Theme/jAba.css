@@ -742,8 +742,7 @@ button[class*="lookFilled__950dd"]:hover {
     backdrop-filter: blur(25px);
 }
 
-.wrapper__8436d:hover .childWrapper_a6ce15,
-.wrapper__8436d.selected_ae80f7 .childWrapper_a6ce15 {
+.wrapper_a6f950:hover .childWrapper__760c6, .wrapper_a6f950.selected_b420e6 .childWrapper__760c6 {
     background: rgba(255, 255, 255, 0.1) !important;
     box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.2) !important;
 }
