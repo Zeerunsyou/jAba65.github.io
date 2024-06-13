@@ -8,7 +8,7 @@
 :root {
     --app-bg: url(https://i.giphy.com/YOexokCCddG4HKLuNW.webp);
     --blur-bg: 40px;
-    --brightness-bg: 0.5;
+    --brightness-bg: 0.3;
     --border-main: 1px solid rgba(255, 255, 255, 0.1);
 }
 
@@ -147,10 +147,10 @@ body {
 .children_cde9af:after,/* какой то градиент сверху хз */
 .protip__84833, /* нахуй оно надо (в найти или начать беседу) */ 
 .block__6f452, /* нахуй оно надо (в закрепах) */
-.tutorial__01565.shown_e5ba1a,/* нахуй оно надо (подсказка в найти или начать беседу) */
-.userSettingsSecurityImage__7266c ,
-.ready__61f2f,/* нахуй оно надо (моя учетная запись)*/ 
-.content__01e65:before/* черная полосаааа*/ {
+.tutorial__01565.shown_e5ba1a, /* нахуй оно надо (подсказка в найти или начать беседу) */
+.userSettingsSecurityImage__7266c,
+.ready__61f2f, /* нахуй оно надо (моя учетная запись)*/ 
+.content__01e65:before /* черная полосаааа*/ {
     display: none !important;
 }
 
@@ -353,12 +353,10 @@ a.anchor_c8ddc0 > span:not(.username__4a6f7) {
     padding-right: 34px;
     backdrop-filter: blur(10px);
 }
-
 .input__2a648 {
     background: rgba(100, 100, 100, 0.1);
     width: 103.4%;
 }
-
 .scroller_d4b86c {
     background: rgba(100, 100, 100, 0.15);
 }
@@ -452,7 +450,7 @@ a.anchor_c8ddc0 > span:not(.username__4a6f7) {
     background: rgba(100, 100, 100, 0.2) !important;
 }
 
-/* тууугле ON */
+/* Toogle ON */
 .container__2ed72.checked__36fdc {
     background-color: rgba(255, 255, 255, 0.4) !important;
 }
@@ -517,7 +515,7 @@ button[class*="lookFilled__950dd"]:hover {
     border-radius: 10px;
 }
 
-/* Настройки ()!() Левая панель (табы) */
+/* Настройки > Левая панель (табы) */
 .side_b4b3f6 .selected_a523ff {
     background-color: rgba(100, 100, 100, 0.3) !important;
 }
@@ -690,6 +688,15 @@ button[class*="lookFilled__950dd"]:hover {
     display: flex;
     justify-content: center;
 }
+@keyframes slidein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
 
 /* дискорд прокрутка при загрузке */
 .scroller__6ea8b,
@@ -701,15 +708,6 @@ button[class*="lookFilled__950dd"]:hover {
 /* чат ?????? */
 .chat__52833.content__01e65.container__03ec9 {
     background: rgba(255, 0, 0, 1) !important;
-}
-@keyframes slidein {
-    from {
-        opacity: 0;
-    }
-
-    to {
-        opacity: 1;
-    }
 }
 
 /* просмотр каналов на сервере */
@@ -742,10 +740,11 @@ button[class*="lookFilled__950dd"]:hover {
     backdrop-filter: blur(25px);
 }
 
+/* Иконка дискорда слева сверху */
 .wrapper_a6f950:hover .childWrapper__760c6,
 .wrapper_a6f950.selected_b420e6 .childWrapper__760c6 {
     background: rgba(255, 255, 255, 0.1) !important;
-    box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.2) !important;
+    box-shadow: inset 0 0 10px rgba(255, 255, 255, 0.1) !important;
 }
 
 /* Кнопки в контекстном меню */
@@ -816,11 +815,13 @@ button[class*="lookFilled__950dd"]:hover {
 .colorDefault_e361cf:active:not(.hideInteraction__0b569) {
     border-radius: 10px;
 }
+
 /* плагин membercount */
 .vc-membercount-widget {
     --color-online: rgba(108, 255, 223, 0.7);
 }
-/* смотретЬ  стрим */
+
+/* смотреть  стрим */
 .streamPreview__3a6b0 {
     background: transparent !important;
 }
@@ -828,7 +829,7 @@ button[class*="lookFilled__950dd"]:hover {
     backdrop-filter: blur(10px);
 }
 
-/* когда демкY можно включить */
+/* когда демку можно включить */
 .colorable__4f530.primaryDark_ec74a7 .centerIcon_e3df23 {
     color: rgb(255, 255, 255);
 }
@@ -844,15 +845,17 @@ button[class*="lookFilled__950dd"]:hover {
     text-decoration-color: rgba(255, 255, 255, 0.45) !important;
 }
 
+/* Черная линия в чате в разговоре */
 .resizeHandle_b0065e {
     background-color: transparent;
 }
 
+/* Уведомление о обновлении VenCord */
 .vc-notification {
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(20px);
 }
 
 /* фон сообщений при наведении */
-.theme-dark.mouse-mode.full-motion .message_ccca67:hover {
-    background: rgba(190, 190, 190, 0.1);
+.message_ccca67:hover {
+    background: rgba(190, 190, 190, 0.03) !important;
 }
