@@ -872,3 +872,23 @@ button[class*="lookFilled__950dd"]:hover {
 .message_ccca67:hover {
     background: rgba(190, 190, 190, 0.03) !important;
 }
+
+/* статус действий на сервере	 */
+.popout__4c91f {
+    backdrop-filter: blur(15px);
+}
+
+/* Add server */
+.circleIcon_b62ef0:hover {
+    animation-name: ani-rotate;
+    animation-duration: 1s;
+}
+
+@keyframes ani-rotate {
+    0% {
+        transform: rotate(0);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
