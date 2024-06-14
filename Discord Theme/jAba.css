@@ -4,6 +4,7 @@
 @import url("https://eject37.github.io/DiscordTheme/RoundUserPanel.css");
 @import url("https://eject37.github.io/DiscordTheme/OldMicrophone.css");
 @import url("https://eject37.github.io/DiscordTheme/ChangeSearchBarToIcon.css");
+@import url("https://eject37.github.io/DiscordTheme/RegionFlags.css");
 
 :root {
     --app-bg: url(https://i.giphy.com/YOexokCCddG4HKLuNW.webp);
@@ -63,6 +64,9 @@
     --primary-860: rgba(202, 90, 99, 0.9);
     /* мьют микро на панели снизу слева */
     --important-messages-color: #fdbdbd;
+    /* Длина и отступ панели табов в настройках */
+    --custom-standard-sidebar-view-sidebar-content-width: 217px;
+    --custom-standard-sidebar-view-standard-padding: 100px;
 }
 
 /* Шрифт */
@@ -85,6 +89,15 @@ body {
 /* добавляет блюр и затемнение на задний фон */
 .bg__12180 {
     backdrop-filter: blur(var(--blur-bg)) brightness(var(--brightness-bg));
+}
+
+/* Credits */
+.info__755e1::before {
+    content: "Theme by jAba & Eject";
+    color: var(--text-muted);
+    font-size: 14px;
+    padding-bottom: 10px;
+    display: block;
 }
 
 /* убирает задний цвет для гифки */
@@ -782,8 +795,8 @@ button[class*="lookFilled__950dd"]:hover {
     fill: rgba(255, 255, 255, 0.3);
 }
 
-/* фин выбора сервера  */
-.quickSelectPopout__56a98 {
+/* фон выбора сервера  */
+.regionSelectPopout_a270cb {
     backdrop-filter: blur(15px);
     border-radius: 10px;
     background: rgba(255, 255, 255, 0.1) !important;
