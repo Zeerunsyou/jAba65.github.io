@@ -7,7 +7,7 @@
 @import url("https://eject37.github.io/DiscordTheme/RegionFlags.css");
 
 :root {
-    --app-bg: url(https://i.giphy.com/YOexokCCddG4HKLuNW.webp);
+    --app-bg: url(https://i.giphy.com/PLJeLzh6gfL2LhUIW0.webp);
     --blur-bg: 40px;
     --brightness-bg: 0.3;
     --border-main: 1px solid rgba(255, 255, 255, 0.1);
@@ -144,7 +144,9 @@ body {
 .container__03ec9,
 .header__71942m,
 .mediaBarInteractionVolume_cc44ff,
-.medium_b9df4c {
+.medium_b9df4c,
+.modal__20db0,
+.authBoxExpanded__1da99 {
     background: transparent !important;
 }
 
@@ -873,17 +875,28 @@ button[class*="lookFilled__950dd"]:hover {
     background: rgba(190, 190, 190, 0.03) !important;
 }
 
-/* статус действий на сервере	 */
-.popout__4c91f {
+.popout__4c91, /* статус действий на сервере	 */ 
+.reactionTooltip__20d0b  /* наведение на реакцию */ {
+    backdrop-filter: blur(15px);
+}
+
+/* добавить учетную запись */
+.authBoxExpanded__1da99,
+.modal__20db0 {
+    background: rgba(255, 255, 255, 0.05) !important;
     backdrop-filter: blur(15px);
 }
 
 /* Add server */
-.circleIcon_b62ef0:hover {
+.circleIconButton__05cf2:hover > .circleIcon_b62ef0 {
     animation-name: ani-rotate;
     animation-duration: 1s;
 }
-
+/* статистика пинга  */
+.debugPanelStandalone__43f23 {
+    backdrop-filter: blur(15px);
+    border-radius: 15px;
+}
 @keyframes ani-rotate {
     0% {
         transform: rotate(0);
