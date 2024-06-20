@@ -165,7 +165,8 @@ body {
 .tutorial_c36bbe.shown_c36bbe, /* нахуй оно надо (подсказка в найти или начать беседу) */
 .userSettingsSecurityImage_ad4a7c,
 .ready_e40c16, /* нахуй оно надо (моя учетная запись)*/ 
-.content_a7d72e:before /* черная полосаааа*/ {
+.content_a7d72e:before,
+.container_da1432 /* черная полосаааа*/ {
     display: none !important;
 }
 
@@ -897,6 +898,29 @@ button[class*="lookFilled_dd4f85"]:hover {
     backdrop-filter: blur(15px);
     border-radius: 15px;
 }
+
+/* верхний цвет откртия профиля */
+.settingsBanner_c3e427 {
+    background-color: rgba(100, 100, 100, 0.2) !important;
+}
+/* полоска за которую перетягиваешь звук */
+.grabber_c7a159 {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    border: var(--border-main);
+}
+/* выбор звуков пердежа */
+.picker_cd703d {
+    backdrop-filter: blur(15px) !important;
+}
+/* Настройки > склад подарков */
+.giftCardButton_d8f41e {
+    background-color: rgba(100, 100, 100, 0.2) !important;
+    border: var(--border-main) !important;
+}
+.giftCardButton_d8f41e:hover {
+    background-color: rgba(100, 100, 100, 0.4) !important;
+}
+
 @keyframes ani-rotate {
     0% {
         transform: rotate(0);
