@@ -165,8 +165,8 @@ body {
 .tutorial_c36bbe.shown_c36bbe, /* нахуй оно надо (подсказка в найти или начать беседу) */
 .userSettingsSecurityImage_ad4a7c,
 .ready_e40c16, /* нахуй оно надо (моя учетная запись)*/ 
-.content_a7d72e:before,
-.container_da1432 /* черная полосаааа*/ {
+.content_a7d72e:before,/* черная полосаааа*/
+.container_da1432 /*реклама*/ {
     display: none !important;
 }
 
@@ -905,7 +905,7 @@ button[class*="lookFilled_dd4f85"]:hover {
 }
 /* полоска за которую перетягиваешь звук */
 .grabber_c7a159 {
-    background-color: rgba(255, 255, 255, 0.5) !important;
+    background-color: rgb(150 150, 150) !important;
     border: var(--border-main);
 }
 /* выбор звуков пердежа */
@@ -919,6 +919,15 @@ button[class*="lookFilled_dd4f85"]:hover {
 }
 .giftCardButton_d8f41e:hover {
     background-color: rgba(100, 100, 100, 0.4) !important;
+}
+
+.bar_c7a159,
+.markDash_c7a159 {
+    background: rgba(67, 67, 67, 0.52) !important;
+}
+
+.pictureInPicture_d0596b {
+    backdrop-filter: blur(15px);
 }
 
 @keyframes ani-rotate {
