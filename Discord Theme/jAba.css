@@ -270,7 +270,7 @@ body {
 }
 
 /* Контекстное меню Blur */
-.menu_d90b3d:not(.menu_ad5fac):before {
+.menu_d90b3d:not(.menu_ad5fac, [id="account"], [id="status"]):before {
     position: absolute;
     content: " ";
     width: 100%;
@@ -280,6 +280,23 @@ body {
     backdrop-filter: blur(20px);
     pointer-events: none;
     z-index: -1;
+}
+/* профиля когда тыкаешь */
+.banner_c3e427.divider_c3e427.biteSizeBanner_c3e427,
+.banner_c3e427.divider_c3e427.fullSizeBanner_c3e427.roundedBanner_c3e427,
+.fullSizeInnerThemed_c69a7b {
+    background: rgba(255, 255, 255, 0.03) !important;
+}
+
+.container_b6cd66 {
+    background: rgba(255, 255, 255, 0.03) !important;
+    backdrop-filter: blur(20px);
+    box-shadow: inset 0 0 15px rgba(100, 100, 100, 0.1) !important;
+}
+
+/* профиль слева снизу */
+.biteSizeInnerThemed_c69a7b {
+    background: rgba(255, 255, 255, 0.03) !important;
 }
 /* фикс когда открыта картинка */
 #image-context[class*="menu_d90b3d"] {
