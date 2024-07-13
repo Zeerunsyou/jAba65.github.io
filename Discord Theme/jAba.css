@@ -114,7 +114,7 @@ body {
 .privateChannels_f0963d,
 .scroller_c47fa9,
 .themedBackground_d0696b,
-.themed_e44302,
+.themed_fc4f04,
 .bg_d4b6c5,
 #app-mount,
 .app_a01fb1,
@@ -159,7 +159,7 @@ body {
 /* убирает залупу */
 .form_a7d72e:before, /*градиент возле чатбокса*/
 .form_a7d72e:after,
-.children_e44302:after,/* какой то градиент сверху хз */
+.children_fc4f04:after,/* какой то градиент сверху хз */
 .protip_f4e139, /* нахуй оно надо (в найти или начать беседу) */ 
 .block_dcc874, /* нахуй оно надо (в закрепах) */
 .tutorial_c36bbe.shown_c36bbe, /* нахуй оно надо (подсказка в найти или начать беседу) */
@@ -324,8 +324,8 @@ body {
 .newMosaicStyle_ad9cbd .textContainer_ad9cbd,
 .grid_ad0b71,
 .wrapper_b9fe76,
-.markup_d6076c code,
-.content_fc5f50 {
+.markup_f8f345 code,
+.content_c2654d {
     background: rgba(100, 100, 100, 0.15);
 }
 
@@ -603,7 +603,7 @@ button[class*="lookFilled_dd4f85"]:hover {
 
 /* когда кто то пиздит */
 .border_ba4b17.speaking_ba4b17,
-.border_a5cd29.speaking_a5cd29,
+.border_db83a2.speaking_db83a2,
 .speaking-3K28iH,
 .speaking_fb2f1c,
 .avatarSpeaking_c51b4e {
