@@ -118,9 +118,9 @@ body {
 .bg_d4b6c5,
 #app-mount,
 .app_a01fb1,
-.codeView_ad9cbd.hljs,
+.codeView_d8e2d0.hljs,
 .menu_d90b3d:not(.menu_ad5fac),
-.embedFull_ad0b71,
+.embedFull_b0068a,
 .container_cbd271,
 .members_cbd271,
 .container_ee69e0,
@@ -318,12 +318,12 @@ body {
 }
 
 /* Загружаемые файлы и разные фоны в сообщениях */
-.attachment_a4623d.newMosaicStyle_a4623d,
-.newMosaicStyle_ad9cbd .codeView_ad9cbd,
-.newMosaicStyle_ad9cbd .footer_ad9cbd,
-.newMosaicStyle_ad9cbd .textContainer_ad9cbd,
-.grid_ad0b71,
-.wrapper_b9fe76,
+.attachment_b52bef.newMosaicStyle_b52bef,
+.newMosaicStyle_d8e2d0 .codeView_d8e2d0,
+.newMosaicStyle_d8e2d0 .footer_d8e2d0,
+.newMosaicStyle_d8e2d0 .textContainer_d8e2d0,
+.grid_b0068a,
+.wrapper_a71a1c,
 .markup_f8f345 code,
 .content_c2654d {
     background: rgba(100, 100, 100, 0.15);
@@ -404,7 +404,7 @@ a.anchor_af404b > span:not(.username_de3235) {
 }
 
 /* теги когда тэгаешь кого то */
-.autocomplete_f23da8 {
+.autocomplete_bcc24e {
     background-color: rgba(35, 35, 35, 0.2) !important;
     backdrop-filter: blur(15px);
     border-radius: 10px;
@@ -506,7 +506,7 @@ a.anchor_af404b > span:not(.username_de3235) {
 
 /* WARNING (Настройки > Горячие клавиши) */
 .vc-backup-restore-card,
-.warning_f20685 {
+.warning_bc1f7a {
     border: 1px solid rgba(240, 230, 100, 0.4);
 }
 
@@ -623,7 +623,7 @@ button[class*="lookFilled_dd4f85"]:hover {
 }
 
 /* ссылки при клике которые не обычные ссылки */
-.fileNameLink_a4623d,
+.fileNameLink_b52bef,
 .link_f0135d,
 .lookLink_dd4f85 {
     background: linear-gradient(90deg, rgb(255, 84, 132), rgb(137, 90, 255));
@@ -657,7 +657,7 @@ button[class*="lookFilled_dd4f85"]:hover {
 }
 
 /* идет загрузка файла */
-.attachment_a4623d {
+.attachment_b52bef {
     background-color: rgba(100, 100, 100, 0.1) !important;
 }
 /* вставка файла в чат */
@@ -754,7 +754,7 @@ button[class*="lookFilled_dd4f85"]:hover {
 }
 
 /* ПОМЕТКА БОТА БОТ */
-.botTagRegular_a02df3 {
+.botTagRegular_a9e77f {
     background: rgba(255, 255, 255, 0.15) !important;
 }
 
@@ -943,7 +943,7 @@ button[class*="lookFilled_dd4f85"]:hover {
     background: rgba(67, 67, 67, 0.52) !important;
 }
 
-.pictureInPicture_d0596b {
+.pictureInPicture_e0c856 {
     backdrop-filter: blur(15px);
 }
 
