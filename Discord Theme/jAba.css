@@ -133,7 +133,7 @@ body {
 .container_c2739c,
 .nowPlayingColumn_c2739c,
 .container_bf550a,
-.inset_c0f6a6,
+.inset_ac5d22,
 .attachedBars_d0696b,
 .background_b69b77,
 .fieldList_b69b77,
@@ -161,7 +161,7 @@ body {
 .form_a7d72e:after,
 .children_fc4f04:after,/* какой то градиент сверху хз */
 .protip_f4e139, /* нахуй оно надо (в найти или начать беседу) */ 
-.block_dcc874, /* нахуй оно надо (в закрепах) */
+.block_b5053a, /* нахуй оно надо (в закрепах) */
 .tutorial_c36bbe.shown_c36bbe, /* нахуй оно надо (подсказка в найти или начать беседу) */
 .userSettingsSecurityImage_ad4a7c,
 .ready_e40c16, /* нахуй оно надо (моя учетная запись)*/ 
@@ -231,7 +231,7 @@ body {
 /* Пользователи слева в списке, справа на серверах, каналы на серверах */
 .interactive_f5eb4b,
 .member_cbd271,
-.layout_e9f61e,
+.layout_d808b0,
 .modeSelected_d8bfb3 .link_d8bfb3,
 .wrapper_d8bfb3 .link_d8bfb3 {
     transition: 0.1s;
@@ -330,7 +330,7 @@ body {
 }
 
 /* При наведении в чате на сообщение справа тул панель с действиями */
-.wrapper_ef319f {
+.wrapper_f7e168 {
     border-radius: 10px;
     border: 1px solid var(--background-secondary-alt);
     backdrop-filter: blur(10px);
@@ -364,8 +364,8 @@ a.anchor_af404b > span:not(.username_de3235) {
 .section_cd82a7 {
     background: rgba(100, 100, 100, 0.15);
 }
-.outer_c0f6a6.interactive_c0f6a6:hover,
-.theme-dark .outer_c0f6a6.active_c0f6a6 {
+.outer_ac5d22.interactive_ac5d22:hover,
+.theme-dark .outer_ac5d22.active_ac5d22 {
     background: rgba(100, 100, 100, 0.3) !important;
 }
 .actionButton_e01b91 {
