@@ -33,19 +33,22 @@
     --background-modifier-selected: rgba(190, 190, 190, 0.25);
     --background-floating: rgba(190, 190, 190, 0.25);
     --status-positive-background: rgba(190, 190, 190, 0.25);
+    /* bar */
+    --control-brand-foreground-new: rgba(100, 100, 100, 0.8);
+
+    --text-brand: white;
 }
 :root {
     /* Шрифт */
     --font-primary: "Montserrat", Arial, sans-serif;
     --font-display: "Montserrat", Arial, sans-serif;
     --font-headline: "Montserrat", Arial, sans-serif;
-
     --status-positive: rgba(255, 255, 255, 0.7);
     --text-positive: rgba(255, 255, 255, 0.67);
     /* Цвет загрузки демок и прочего */
     --primary-700: rgba(200, 200, 200, 0.1);
     /* bar */
-    --brand-500: rgb(100, 100, 100);
+    --brand-500: rgba(100, 100, 100);
     /* Бордер чекбоксов, спиннер */
     --brand-400: rgba(170, 170, 170, 0.4);
     /* текст какой то */
@@ -945,6 +948,42 @@ button[class*="lookFilled_dd4f85"]:hover {
 
 .pictureInPicture_e0c856 {
     backdrop-filter: blur(15px);
+}
+
+article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.markup_f8f345 {
+    border-color: rgba(200, 200, 200, 0.35) !important;
+}
+
+/* почта */
+.recentMentionsPopout_ddb5b4 {
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
+
+/* контекстное меню мышкой  навелся */
+.colorDefault_d90b3d.focused_d90b3d {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.colorDefault_d90b3d:active:not(.hideInteraction_d90b3d) {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* реакция на сообщение */
+#emoji-picker-tab-panel {
+    backdrop-filter: blur(10px);
+    border: var(--border-main) !important;
+}
+
+.tooltipBrand_b6c360 {
+    background: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* когда кто то звонит */
+.root_cbf230.elevationHigh_ff8688 {
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 10px;
 }
 
 @keyframes ani-rotate {
