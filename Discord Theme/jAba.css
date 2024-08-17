@@ -268,8 +268,9 @@ body {
 .searchBarComponent_f0963d, /* Строка поиска слева сверху */
 .menu_d90b3d:not(.menu_ad5fac) /* Контекстное меню */ {
     background: rgba(255, 255, 255, 0.03) !important;
-    box-shadow: inset 0 0 10px rgba(100, 100, 100, 0.25) !important;
+    /* box-shadow: inset 0 0 10px rgba(100, 100, 100, 0.25) !important; */
     border-radius: 10px !important;
+	border: 1px solid rgba(255, 255, 255, 0.07);
 }
 
 /* Контекстное меню Blur */
@@ -331,7 +332,7 @@ body {
 .content_c2654d {
     background: rgba(100, 100, 100, 0.15);
 }
-
+r
 /* При наведении в чате на сообщение справа тул панель с действиями */
 .wrapper_f7e168 {
     border-radius: 10px;
@@ -983,7 +984,7 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 .root_cbf230.elevationHigh_ff8688 {
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.1) !important;
-    border-radius: 10px;
+    border-radius: 10px;r
 }
 
 @keyframes ani-rotate {
