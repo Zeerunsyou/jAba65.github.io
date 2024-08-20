@@ -5,6 +5,7 @@
 @import url("https://eject37.github.io/DiscordTheme/OldMicrophone.css");
 @import url("https://eject37.github.io/DiscordTheme/ChangeSearchBarToIcon.css");
 @import url("https://eject37.github.io/DiscordTheme/RegionFlags.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
     --app-bg: url(https://i.giphy.com/PLJeLzh6gfL2LhUIW0.webp);
@@ -188,6 +189,22 @@ body {
     background-color: rgba(255, 255, 255, 0.2) !important; /*off call*/
 }
 
+/* стильное красивое появление бля имба */
+/* #app-mount::after {
+    content: "Animated Glass Theme";
+    font-size: 50px;
+    color: #ffffff;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(var(--blur-bg)) brightness(var(--brightness-bg));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    animation: fade-out 2s ease-in-out forwards;
+} */
+
 /* демка */
 .callContainer_d880dc {
     background: linear-gradient(
@@ -270,7 +287,7 @@ body {
     background: rgba(255, 255, 255, 0.03) !important;
     /* box-shadow: inset 0 0 10px rgba(100, 100, 100, 0.25) !important; */
     border-radius: 10px !important;
-	border: 1px solid rgba(255, 255, 255, 0.07);
+    border: 1px solid rgba(255, 255, 255, 0.07);
 }
 
 /* Контекстное меню Blur */
@@ -712,19 +729,41 @@ button[class*="lookFilled_dd4f85"]:hover {
     background: rgba(255, 255, 255, 0.2);
 }
 
-/* сообщение при входе в D$ */
+.tipTitle_e40c16 {
+    display: none;
+}
+
+/* сообщение при входе в дс */
 .tip_e40c16 {
     color: transparent;
     max-width: 1000px !important;
 }
 .tip_e40c16::before {
-    animation-duration: 1s;
-    animation-name: slidein;
-    content: "Theme created by jAba & Eject";
+    content: "Animated Glass Theme";
     color: white !important;
     display: flex;
     justify-content: center;
+    font-size: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
 }
+
+.tip_e40c16::after {
+    animation: slidein 1s;
+    content: "Updated: 20.08.2024 ";
+    color: white !important;
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+}
+
+/* хз рандом кнопка */
+.buttonContainer_df39bd {
+    display: none;
+}
+
 @keyframes slidein {
     from {
         opacity: 0;
@@ -984,8 +1023,19 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 .root_cbf230.elevationHigh_ff8688 {
     backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.1) !important;
-    border-radius: 10px;r
+    border-radius: 10px;
 }
+
+/* @keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+        display: none;
+    }
+} */
 
 @keyframes ani-rotate {
     0% {
