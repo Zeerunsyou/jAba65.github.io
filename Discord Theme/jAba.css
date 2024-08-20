@@ -1020,9 +1020,10 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 /* Стеклеянные окна */
 .searchBarComponent_f0963d, /* Строка поиска слева сверху */
 .menu_d90b3d:not(.menu_ad5fac), /* Контекстное меню */ 
-.searchBar_e7c031   /* поиск в настройках */ {
+.searchBar_e7c031,   /* поиск в настройках */ 
+.searchBarComponent_f0963d  /*поиск в главном менбю*/ {
     background: rgba(190, 190, 190, 0.05) !important;
-    border-radius: 10px;
+    border-radius: 10px !important;
 }
 
 /* @keyframes fade-out {
