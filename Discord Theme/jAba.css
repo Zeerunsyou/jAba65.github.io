@@ -189,22 +189,6 @@ body {
     background-color: rgba(255, 255, 255, 0.2) !important; /*off call*/
 }
 
-/* стильное красивое появление бля имба */
-/* #app-mount::after {
-    content: "Animated Glass Theme";
-    font-size: 50px;
-    color: #ffffff;
-    width: 100%;
-    height: 100%;
-    backdrop-filter: blur(var(--blur-bg)) brightness(var(--brightness-bg));
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Montserrat", sans-serif;
-    font-weight: bold;
-    animation: fade-out 2s ease-in-out forwards;
-} */
-
 /* демка */
 .callContainer_d880dc {
     background: linear-gradient(
@@ -929,7 +913,7 @@ button[class*="lookFilled_dd4f85"]:hover {
 
 .popout__4c91, /* статус действий на сервере	 */ 
 .reactionTooltip_fba897  /* наведение на реакцию */ {
-    backdrop-filter: blur(15px);
+    backdrop-filter: blur(15px) brightness(0.6);
 }
 
 /* добавить учетную запись */
@@ -1026,16 +1010,33 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
     border-radius: 10px !important;
 }
 
-/* @keyframes fade-out {
-    0% {
-        opacity: 1;
-    }
+/* профиль когда тыкаешь снизу слева */
+.biteSizeInner_c69a7b::before {
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    backdrop-filter: blur(20px);
+    pointer-events: none;
+    z-index: -1;
+}
 
-    100% {
-        opacity: 0;
-        display: none;
-    }
-} */
+/* цветовая панель в зависимости от цвета аватарки */
+.banner_c3e427 {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+/* добавить статус */
+.statusBubbleShape_d0a252 {
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.statusBubbleOuter_d0a252::after,
+.statusBubbleOuter_d0a252::before {
+    display: none;
+}
 
 @keyframes ani-rotate {
     0% {
