@@ -170,7 +170,8 @@ body {
 .userSettingsSecurityImage_ad4a7c,
 .ready_e40c16, /* нахуй оно надо (моя учетная запись)*/ 
 .content_a7d72e:before,/* черная полосаааа*/
-.container_da1432 /*реклама*/ {
+.container_da1432, /*реклама*/
+.footerImage_fab929 {
     display: none !important;
 }
 
@@ -1036,6 +1037,22 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 .statusBubbleOuter_d0a252::after,
 .statusBubbleOuter_d0a252::before {
     display: none;
+}
+
+.container_b6cd66 {
+    backdrop-filter: blur(10px);
+}
+
+.allow_d25d19.selected_d25d19 {
+    background-color: rgba(255, 255, 255, 0.25);
+}
+
+.passthrough_d25d19.selected_d25d19 {
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.container_b6cd66 {
+    backdrop-filter: blur(10px) !important;
 }
 
 @keyframes ani-rotate {
