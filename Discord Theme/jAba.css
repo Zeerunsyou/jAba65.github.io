@@ -1054,7 +1054,21 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 .container_b6cd66 {
     backdrop-filter: blur(10px) !important;
 }
+/* наве6стись на канал сервера */
+.popout_c5b389 {
+    backdrop-filter: blur(20px);
+    border: var(--border-main);
+    border-radius: 10px;
+}
+.body_adbea6 {
+    backdrop-filter: blur(20px);
+    border: var(--border-main);
+}
 
+#popout_2709 {
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+}
 @keyframes ani-rotate {
     0% {
         transform: rotate(0);
