@@ -1060,15 +1060,17 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
     border: var(--border-main);
     border-radius: 10px;
 }
-.body_adbea6 {
-    backdrop-filter: blur(20px);
-    border: var(--border-main);
+.body_adbea6,
+.bar_eba0ba,
+.thin_c49869 {
+    backdrop-filter: blur(10px);
 }
 
 #popout_2709 {
     backdrop-filter: blur(20px);
     border-radius: 10px;
 }
+
 @keyframes ani-rotate {
     0% {
         transform: rotate(0);
