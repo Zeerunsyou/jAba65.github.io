@@ -961,10 +961,6 @@ button[class*="lookFilled_dd4f85"]:hover {
     background: rgba(67, 67, 67, 0.52) !important;
 }
 
-.pictureInPicture_e0c856 {
-    backdrop-filter: blur(15px);
-}
-
 article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.markup_f8f345 {
     border-color: rgba(200, 200, 200, 0.35) !important;
 }
