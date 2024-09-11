@@ -278,8 +278,8 @@ body {
     z-index: -1;
 }
 /* профиля когда тыкаешь */
-.banner_c3e427.divider_c3e427.biteSizeBanner_c3e427,
-.banner_c3e427.divider_c3e427.fullSizeBanner_c3e427.roundedBanner_c3e427,
+.banner_d5fdb1.divider_c3e427.biteSizeBanner_c3e427,
+.banner_d5fdb1.divider_c3e427.fullSizeBanner_c3e427.roundedBanner_c3e427,
 .fullSizeInnerThemed_c69a7b {
     background: rgba(255, 255, 255, 0.03) !important;
 }
@@ -502,7 +502,7 @@ a.anchor_af404b > span:not(.username_de3235) {
 
 /* WARNING (Настройки > Горячие клавиши) */
 .vc-backup-restore-card,
-.warning_bc1f7a {
+.warning_be45f6 {
     border: 1px solid rgba(240, 230, 100, 0.4);
 }
 
@@ -637,7 +637,7 @@ button[class*="lookFilled_dd4f85"]:hover {
 
 /* цвет профиля когда тыкаешь сверху */
 .popoutBanner_c3e427,
-.banner_c3e427.modalBanner_c3e427 {
+.banner_d5fdb1.modalBanner_c3e427 {
     background-color: rgba(100, 100, 100, 0.2) !important;
 }
 .userPopoutInner_c69a7b:before {
@@ -1024,7 +1024,7 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 }
 
 /* цветовая панель в зависимости от цвета аватарки */
-.banner_c3e427 {
+.banner_d5fdb1 {
     background-color: rgba(255, 255, 255, 0.1) !important;
 }
 
