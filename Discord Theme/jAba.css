@@ -1073,6 +1073,10 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
     background-color: rgba(255, 255, 255, 0.05) !important;
 }
 
+#popout_353 {
+    backdrop-filter: blur(10px);
+}
+
 @keyframes ani-rotate {
     0% {
         transform: rotate(0);
