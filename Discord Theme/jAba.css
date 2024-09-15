@@ -616,8 +616,9 @@ button[class*="lookFilled_dd4f85"]:hover {
     border-radius: 6px;
 }
 
-/* когда кто то пиздит */
-.border_ba4b17.speaking_ba4b17 {
+/* когда кто то говорит */
+.border_ba4b17.speaking_ba4b17,
+.avatarSpeaking_d80634 {
     box-shadow: inset 0 0 20px rgba(130, 130, 130, 0.7);
 }
 
