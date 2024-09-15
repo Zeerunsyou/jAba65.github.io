@@ -456,6 +456,10 @@ a.anchor_af404b > span:not(.username_de3235) {
     border: 1px solid var(--background-secondary-alt);
 }
 
+.directoryContainer_da3f59 {
+    backdrop-filter: blur(var(--blur-bg)) brightness(var(--brightness-bg));
+}
+
 /* textbox */
 .input_f8bc55,
 .input_f8bc55:hover {
