@@ -149,7 +149,12 @@ body {
 .mediaBarInteractionVolume_f7877e,
 .medium_f9a4c9,
 .modal_f31a4d,
-.authBoxExpanded_dc6abe {
+.authBoxExpanded_dc6abe,
+.childWrapperNoHoverBg_f90abb,
+.scroller_c6b11b,
+.thin_c49869.scrollerBase_c49869.fade_c49869,
+.brand_a0,
+.streamPreview_ba4b17 {
     background: transparent !important;
 }
 
@@ -170,7 +175,8 @@ body {
 .ready_e40c16, /* нахуй оно надо (моя учетная запись)*/ 
 .content_a7d72e:before,/* черная полосаааа*/
 .container_da1432, /*реклама*/
-.footerImage_fab929 {
+.footerImage_fab929,.tipTitle_e40c16,.buttonContainer_df39bd,.statusBubbleOuter_d0a252::after,
+.statusBubbleOuter_d0a252::before {
     display: none !important;
 }
 
@@ -325,17 +331,31 @@ body {
     background: rgba(100, 100, 100, 0.15);
 }
 
+/*блюр*/
+.wrapper_f7e168,
+.quickswitcher_f4e139,
+.tooltipPrimary_b6c360,
+.tooltipGreen_b6c360,
+.newMessagesBar_cf58b5,
+.tooltipGrey_b6c360,
+.streamPreview_ba4b17 button,
+#emoji-picker-tab-panel,
+.root_cbf230.elevationHigh_ff8688,
+.container_b6cd66,
+.body_adbea6,
+.bar_eba0ba,
+#popout_353,
+#popout_459,
+.streamPreview_adbea6,
+.popout_a35965 {
+    backdrop-filter: blur(10px) !important;
+}
+
 /* При наведении в чате на сообщение справа тул панель с действиями */
 .wrapper_f7e168 {
     border-radius: 10px;
     border: 1px solid var(--background-secondary-alt);
-    backdrop-filter: blur(10px);
     background: rgba(165, 165, 165, 0.15);
-}
-
-/* Сверху слева иконка дискорда, убираем цвет если не активна */
-.childWrapperNoHoverBg_f90abb {
-    background: transparent;
 }
 
 /* Ссылки в чате */
@@ -380,7 +400,6 @@ a.anchor_af404b > span:not(.username_de3235) {
     box-shadow: inset 0 0 15px rgba(255, 255, 255, 0.1);
     padding: 3%;
     padding-right: 34px;
-    backdrop-filter: blur(10px);
 }
 .input_f4e139 {
     background: rgba(100, 100, 100, 0.1);
@@ -598,12 +617,8 @@ button[class*="lookFilled_dd4f85"]:hover {
 }
 
 /* когда кто то пиздит */
-.border_ba4b17.speaking_ba4b17,
-.border_db83a2.speaking_db83a2,
-.speaking-3K28iH,
-.speaking_fb2f1c,
-.avatarSpeaking_c51b4e {
-    box-shadow: inset 0 0 10px rgb(130, 130, 130);
+.border_ba4b17.speaking_ba4b17 {
+    box-shadow: inset 0 0 20px rgba(130, 130, 130, 0.7);
 }
 
 /* устройстав задний цвет */
@@ -631,7 +646,6 @@ button[class*="lookFilled_dd4f85"]:hover {
 .tooltipPrimary_b6c360,
 .tooltipGreen_b6c360 {
     background-color: rgba(100, 100, 100, 0.2) !important;
-    backdrop-filter: blur(10px);
     border-radius: 10px;
 }
 
@@ -692,7 +706,6 @@ button[class*="lookFilled_dd4f85"]:hover {
 /* сверху в чате новые сообщения */
 .newMessagesBar_cf58b5 {
     background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
     border: var(--border-main);
 }
 
@@ -702,10 +715,6 @@ button[class*="lookFilled_dd4f85"]:hover {
 }
 .container_d331f1:hover {
     background: rgba(255, 255, 255, 0.2);
-}
-
-.tipTitle_e40c16 {
-    display: none;
 }
 
 /* сообщение при входе в дс */
@@ -734,11 +743,6 @@ button[class*="lookFilled_dd4f85"]:hover {
     font-weight: bold;
 }
 
-/* хз рандом кнопка */
-.buttonContainer_df39bd {
-    display: none;
-}
-
 @keyframes slidein {
     from {
         opacity: 0;
@@ -747,13 +751,6 @@ button[class*="lookFilled_dd4f85"]:hover {
     to {
         opacity: 1;
     }
-}
-
-/* дискорд прокрутка при загрузке */
-.scroller_c6b11b,
-.thin_c49869.scrollerBase_c49869.fade_c49869,
-.brand_a0 {
-    background: transparent !important;
 }
 
 /* чат ?????? */
@@ -823,11 +820,6 @@ button[class*="lookFilled_dd4f85"]:hover {
     background: rgba(255, 255, 255, 0.05) !important;
 }
 
-/* бляр на баре  */
-.tooltipGrey_b6c360 {
-    backdrop-filter: blur(10px);
-}
-
 /* выбор контекстого меню галочки фон */
 .colorDefault_d90b3d.focused_d90b3d path {
     fill: rgba(255, 255, 255, 0.3);
@@ -870,14 +862,6 @@ button[class*="lookFilled_dd4f85"]:hover {
 /* плагин membercount */
 .vc-membercount-widget {
     --color-online: rgba(108, 255, 223, 0.7);
-}
-
-/* смотреть  стрим */
-.streamPreview_ba4b17 {
-    background: transparent !important;
-}
-.streamPreview_ba4b17 button {
-    backdrop-filter: blur(10px);
 }
 
 /* когда демку можно включить */
@@ -925,8 +909,7 @@ button[class*="lookFilled_dd4f85"]:hover {
 
 /* Add server */
 .circleIconButton_db6521:hover > .circleIcon_db6521 {
-    animation-name: ani-rotate;
-    animation-duration: 1s;
+    animation: ani-rotate 1s linear infinite;
 }
 /* статистика пинга  */
 .debugPanelStandalone_feab95 {
@@ -982,7 +965,6 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 
 /* реакция на сообщение */
 #emoji-picker-tab-panel {
-    backdrop-filter: blur(10px);
     border: var(--border-main) !important;
 }
 
@@ -992,7 +974,6 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 
 /* когда кто то звонит */
 .root_cbf230.elevationHigh_ff8688 {
-    backdrop-filter: blur(10px);
     background: rgba(255, 255, 255, 0.1) !important;
     border-radius: 10px;
 }
@@ -1029,15 +1010,6 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
     background-color: rgba(255, 255, 255, 0.05);
 }
 
-.statusBubbleOuter_d0a252::after,
-.statusBubbleOuter_d0a252::before {
-    display: none;
-}
-
-.container_b6cd66 {
-    backdrop-filter: blur(10px);
-}
-
 .allow_d25d19.selected_d25d19 {
     background-color: rgba(255, 255, 255, 0.25);
 }
@@ -1046,18 +1018,11 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
     background-color: rgba(255, 255, 255, 0.15);
 }
 
-.container_b6cd66 {
-    backdrop-filter: blur(10px) !important;
-}
 /* наве6стись на канал сервера */
 .popout_c5b389 {
     backdrop-filter: blur(20px);
     border: var(--border-main);
     border-radius: 10px;
-}
-.body_adbea6,
-.bar_eba0ba {
-    backdrop-filter: blur(10px);
 }
 
 #popout_2709 {
@@ -1067,12 +1032,6 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 
 .statusBubbleSingleLineWithTextShape_d0a252 {
     background-color: rgba(255, 255, 255, 0.05) !important;
-}
-
-#popout_353,
-#popout_459,
-.streamPreview_adbea6 {
-    backdrop-filter: blur(10px) !important;
 }
 
 @keyframes ani-rotate {
