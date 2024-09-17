@@ -371,11 +371,6 @@ a.anchor_af404b > span:not(.username_de3235) {
 }
 
 /* друзья */
-/* друзья */
-/* друзья */
-/* друзья */
-/* друзья */
-/* друзья */
 .wrapper_cd82a7,
 .section_cd82a7 {
     background: rgba(100, 100, 100, 0.15);
@@ -387,11 +382,6 @@ a.anchor_af404b > span:not(.username_de3235) {
 .actionButton_e01b91 {
     background: rgba(100, 100, 100, 0.3) !important;
 }
-/* друзья */
-/* друзья */
-/* друзья */
-/* друзья */
-/* друзья */
 /* друзья */
 
 /* поиск нажатие */
@@ -455,7 +445,7 @@ a.anchor_af404b > span:not(.username_de3235) {
     background: rgba(100, 100, 100, 0.15) !important;
     border: 1px solid var(--background-secondary-alt);
 }
-
+/* категория приложений */
 .directoryContainer_da3f59 {
     backdrop-filter: blur(var(--blur-bg)) brightness(var(--brightness-bg));
 }
@@ -621,10 +611,10 @@ button[class*="lookFilled_dd4f85"]:hover {
 }
 
 /* когда кто то говорит */
-.border_ba4b17.speaking_ba4b17,
-.avatarSpeaking_d80634 {
+.border_ba4b17.speaking_ba4b17 {
     box-shadow: inset 0 0 20px rgba(130, 130, 130, 0.7);
 }
+/* когда кто то говорит */
 
 /* устройстав задний цвет */
 .sessionIcon_c7a2c0,
