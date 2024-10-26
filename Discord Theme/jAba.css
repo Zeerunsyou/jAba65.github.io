@@ -719,7 +719,7 @@ button[class*="lookFilled_dd4f85"]:hover {
 }
 /* чат */
 .themedBackground_bdf0de {
-    background-color: rgba(100, 100, 100, 0.1) !important;
+    background-color: transparent;
 }
 
 .uploadDropModal_f82cc7 .bgScale_f82cc7 {
