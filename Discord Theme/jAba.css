@@ -6,146 +6,6 @@
 @import url("https://eject37.github.io/DiscordTheme/ChangeSearchBarToIcon.css");
 @import url("https://eject37.github.io/DiscordTheme/RegionFlags.css");
 
-/* .sidebar_c25c6d .item_a0::before {
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: 7px;
-    content: "";
-    background-size: contain;
-    scale: 1.1;
-}
-
-.theme-dark .sidebar_c25c6d .item_a0::before {
-    filter: invert();
-}
-
-.sidebar_c25c6d .item_a0 {
-    padding-left: 35px;
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(3)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/MyAccount.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(4)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Profiles.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(5)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Privacy&Safety.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(6)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/FamilyCenter.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(7)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/AuthorizedApps.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(8)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Devices.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(9)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Connections.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(10)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Clips.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(11)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/FriendRequests.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(14)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Nitro.svg");
-    height: 14px !important;
-    display: var(--nitro);
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(15)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/ServerBoost.svg");
-    display: var(--nitro);
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(16)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Subscriptions.svg");
-    display: var(--nitro);
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(17)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/GiftInventory.svg");
-    display: var(--nitro);
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(18)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/GovernmentOrder.svg");
-    display: var(--nitro);
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(21)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Appearance.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(22)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Accessibility.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(23)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Voice&Video.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(24)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Text&Images.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(25)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Notifications.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(26)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Keybinds.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(27)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Language.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(28)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/WindowsSettings.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(29)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/StreamerMode.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(30)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Advanced.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(33)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/ActivityPrivacy.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(34)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/RegistredGames.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .item_a0:nth-of-type(35)::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/GameOverlay.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .bd-settings-tab::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Settings.svg");
-}
-
-.side_a0:has(> .socialLinks_c44e94) > .bd-updates-tab::before {
-    background-image: url("https://feorev.github.io/Themes/Discord/assets/SettingsIcons/Updates.svg");
-} */
-
 :root {
     --app-bg: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTAwd3FkaHY1NGUxNjY3cTJtNDRoNzI1eGg3c2g2ZmdsaXdwdDBuMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cjojgtiigyloyCg3r9/giphy.webp);
     --blur-bg: 80px;
@@ -1177,8 +1037,21 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
     border-radius: 10px;
 }
 
+#app-mount
+    div[class*="controlButton_b6e2f9"]
+    button[aria-label="Прекратить просмотр"]
+    svg
+    path {
+    fill: rgba(202, 90, 99, 0.9) !important;
+}
+
 .statusBubbleSingleLineWithTextShape_d0a252 {
     background-color: rgba(255, 255, 255, 0.05) !important;
+}
+
+#app-mount div > div[aria-label="Другие настройки"] {
+    background: transparent !important;
+    box-shadow: inset 0 0 10px rgb(100, 100, 100, 0.7);
 }
 
 .vc-settings-quickActions-pill:hover {
