@@ -1060,7 +1060,7 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 
 /* Скрываем снизу слева помойку от 16.11.2024 */
 .footer_f8ec41 {
-    display: none;
+    display: none !important;
 }
 
 @keyframes ani-rotate {
