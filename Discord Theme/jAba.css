@@ -1062,6 +1062,11 @@ article.embedWrapper_b558d0.embedFlexGrow_b558d0.embedFull_b0068a.embed_b0068a.m
 .footer_f8ec41, .footer_d71945 {
     display: none !important;
 }
+/* блюр контекстное меню на сервере */
+.theme-dark.images-dark.layer_cd0de5 {
+    backdrop-filter: blur(20px);
+}
+
 
 @keyframes ani-rotate {
     0% {
