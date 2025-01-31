@@ -176,7 +176,7 @@ body {
 .content_f75fb0:before,/* черная полосаааа*/
 .container__8279f, /*реклама*/
 .footerImage__98b95,.tipTitle_a2f514,.buttonContainer_e6e74f,.statusBubbleOuter_af9888::after,
-.statusBubbleOuter_af9888::before {
+.statusBubbleOuter_af9888::before,.art_a55fdc {
     display: none !important;
 }
 
@@ -1090,10 +1090,23 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
     border-radius: 10px;
 }
 
-.modalSize_a55fdc {
-    background-color: rgba(100, 100, 100, 0.2);
-    backdrop-filter: blur(5px);
-    box-shadow: inset 0 0 10px rgb(100, 100, 100, 0.25);
+.fullscreenOnMobile__49fc1 {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+}
+.footerSeparator__49fc1 {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+    border-radius: 0px;
+}
+.focusLock__49fc1 {
+    box-shadow: inset 0 0 5px rgba(157, 157, 157, 0.1);
+}
+
+.modalCloseButton_a55fdc {
+    right: -90%;
+    position: relative !important;
+    width: 10%;
 }
 
 @keyframes ani-rotate {
