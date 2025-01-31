@@ -1089,6 +1089,13 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
     border: 1px solid rgba(255, 255, 255, 0.3);
     border-radius: 10px;
 }
+
+.modalSize_a55fdc {
+    background-color: rgba(100, 100, 100, 0.2);
+    backdrop-filter: blur(5px);
+    box-shadow: inset 0 0 10px rgb(100, 100, 100, 0.25);
+}
+
 @keyframes ani-rotate {
     0% {
         transform: rotate(0);
