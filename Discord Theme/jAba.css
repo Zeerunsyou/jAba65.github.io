@@ -7,7 +7,7 @@
 @import url("https://eject37.github.io/DiscordTheme/RegionFlags.css");
 
 :root {
-    --app-bg: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExcTAwd3FkaHY1NGUxNjY3cTJtNDRoNzI1eGg3c2g2ZmdsaXdwdDBuMCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cjojgtiigyloyCg3r9/giphy.webp);
+    --app-bg: url(https://i.imgur.com/rZRpRuv.gif);
     --blur-bg: 80px;
     --brightness-bg: 0.3;
     --border-main: 1px solid rgba(255, 255, 255, 0.1);
@@ -1090,17 +1090,18 @@ article.embedWrapper_b7e1cb.embedFlexGrow_b7e1cb.embedFull__623de.embed__623de.m
     border-radius: 10px;
 }
 
-.fullscreenOnMobile__49fc1 {
+.rootWithShadow__49fc1 {
     background-color: rgba(255, 255, 255, 0.1) !important;
     backdrop-filter: blur(10px);
     border-radius: 10px;
+    box-shadow: 0 0 25px rgba(255, 255, 255, 0.15);
 }
 .footerSeparator__49fc1 {
     background-color: rgba(255, 255, 255, 0.1) !important;
-    border-radius: 0px;
 }
 .focusLock__49fc1 {
-    box-shadow: inset 0 0 5px rgba(157, 157, 157, 0.1);
+    box-shadow: inset 0 0 5px rgba(150, 150, 150, 0.1);
+    border-radius: 10px;
 }
 
 .modalCloseButton_a55fdc {
