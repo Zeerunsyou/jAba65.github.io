@@ -5,7 +5,7 @@
     --app-bg: url(https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDR5cmR6ZjYydWxtYmpwc3pwOHBkNmZjbnRldHAxYzQxZDNsbmw1dSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/3ov9jWPi1AH2XUfI6Q/giphy.gif);
     --blur-bg: 80px;
     --blur-other: 30px;
-    --brightness-bg: 0.8;
+    --brightness-bg: 0.5;
 
     --color-main: rgba(255,255,255,0.1);
     --border-main:  1px solid rgba(255, 255, 255, 0.1);
@@ -84,7 +84,7 @@ body{
 
 /* Context Menu*/
 .menu_c1e9c4{
-    background: var(--color-main);
+    background: rgba(0, 0, 0, 0.158);
     border: var(--border-main);
 
 }
@@ -129,7 +129,7 @@ body{
 }
 /* ToolTip */
 .tooltip__382e7{
-background: rgba(255, 255, 255, 0) !important;
+background: rgba(0, 0, 0, 0.15) !important;
 backdrop-filter: blur(var(--blur-other));
 box-shadow: 0 0 10px rgba(0, 0, 0, 1);
 }
@@ -195,7 +195,51 @@ border: none;
 .container__87bf1.checked__87bf1{
     background-color: rgba(255, 255, 255, 0.24) !important;
 }
+
 /* Profile card */
 .accountProfileCard__1fed1{
     border: var(--border-main);
 }
+
+
+/* ВЫДАЧА ДЕМКИ */
+/* АРТ */
+.artContainer_a55fdc{
+    display: none !important;
+}
+/* НИЗ/ВЕРХ */
+.border_a55fdc,.modalFooter_a55fdc{
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    backdrop-filter: blur(20px)
+}
+/* ГРАДИЕНТ */
+.visual-refresh .container_a55fdc{
+     background: radial-gradient(90.42% 100% at 50% 100%, rgba(15, 15, 15, 0.5) 60%, transparent 100%), linear-gradient(270deg, rgba(73, 59, 151, 0.5) 0, rgba(73, 59, 151, 0.5) 100%)
+}
+/* ВЫДАЧА ДЕМКИ */
+
+/* ПАНЕЛЬ УПРАВЛЕНИЯ В  ГОЛОСОВ КАНАЛЕ */
+.buttonSection__1405b{
+    background: radial-gradient(90.42% 100% at 50% 100%, rgba(19, 18, 18, 0.5) 60%, transparent 100%), linear-gradient(270deg, rgba(42, 36, 80, 0.5) 0, rgba(45, 38, 87, 0.5) 100%) !important;
+    backdrop-filter: blur(10px)
+}
+
+.disconnect_f1ceac {
+    background: radial-gradient(90.42% 100% at 50% 100%, rgba(19, 18, 18, 0.5) 60%, transparent 100%), linear-gradient(270deg, rgba(192, 55, 84, 0.5) 0, rgba(192, 55, 84, 0.5) 100%) !important;
+}/* ПАНЕЛЬ УПРАВЛЕНИЯ В  ГОЛОСОВ КАНАЛЕ */
+/* СМЕНА РЕГИОНА */
+.quickSelectPopout_ebaca5{
+    background: rgba(255, 255, 255, 0.15) !important;
+    backdrop-filter: blur(10px)
+}
+/* СМЕНА РЕГИОНА */
+/* MESSAGEBOX */
+.root__49fc1{
+    background: rgba(255, 255, 255, 0.15);
+    backdrop-filter: blur(10px)
+}
+
+.footer__49fc1{
+    background: transparent;
+}
+/* MESSAGEBOX */
