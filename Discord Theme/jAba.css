@@ -212,20 +212,20 @@ border: none;
     background-color: rgba(255, 255, 255, 0.05) !important;
     backdrop-filter: blur(20px)
 }
-/* ГРАДИЕНТ */
+/* ГРАДИЕНТ */  
 .visual-refresh .container_a55fdc{
-     background: radial-gradient(90.42% 100% at 50% 100%, rgba(15, 15, 15, 0.5) 60%, transparent 100%), linear-gradient(270deg, rgba(73, 59, 151, 0.5) 0, rgba(73, 59, 151, 0.5) 100%)
+     background: radial-gradient(90.42% 100% at 50% 100%, rgba(0, 0, 0, 0) 60%, transparent 100%), linear-gradient(270deg, rgba(27, 27, 29, 0.5) 0, rgba(35, 35, 39, 0.5) 100%)
 }
 /* ВЫДАЧА ДЕМКИ */
 
 /* ПАНЕЛЬ УПРАВЛЕНИЯ В  ГОЛОСОВ КАНАЛЕ */
 .buttonSection__1405b{
-    background: radial-gradient(90.42% 100% at 50% 100%, rgba(19, 18, 18, 0.5) 60%, transparent 100%), linear-gradient(270deg, rgba(42, 36, 80, 0.5) 0, rgba(45, 38, 87, 0.5) 100%) !important;
+    background: radial-gradient(90.42% 100% at 50% 100%, rgba(19, 18, 18, 0.5) 60%, transparent 100%), linear-gradient(270deg, rgba(40, 39, 43, 0.5) 0, rgba(29, 29, 32, 0.5) 100%) !important;
     backdrop-filter: blur(10px)
 }
 
 .disconnect_f1ceac {
-    background: radial-gradient(90.42% 100% at 50% 100%, rgba(19, 18, 18, 0.5) 60%, transparent 100%), linear-gradient(270deg, rgba(192, 55, 84, 0.5) 0, rgba(192, 55, 84, 0.5) 100%) !important;
+    background: radial-gradient(90.42% 100% at 50% 100%, rgba(19, 18, 18, 0.5) 60%, transparent 100%), linear-gradient(270deg, rgba(122, 71, 90, 0.5) 0, rgba(122, 71, 86, 0.5) 100%) !important;
 }
 
 .buttonSection__1405b,.disconnect_f1ceac{
@@ -266,3 +266,7 @@ border: none;
     background-color: transparent !important;
 }
 /* ПРОГРЕСС БАР ЗВУК  */
+
+.border__2f4f7.speaking__2f4f7{
+   box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.2) inset;
+}
