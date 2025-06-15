@@ -43,6 +43,8 @@ body{
 --card-primary-bg: rgba(255, 255, 255, 0.15);
 --bg-base-secondary: rgba(255, 255, 255, 0.15);
 --brand-500: rgba(91, 103, 234, 0.4);
+--text-feedback-positive: rgba(255, 255, 255, 0.65);
+--green-360: rgba(255, 255, 255, 0.65);
 }
 /* Call BackGround*/
 .visual-refresh .root_bfe55a{
@@ -269,4 +271,33 @@ border: none;
 
 .border__2f4f7.speaking__2f4f7{
    box-shadow: 0px 0px 30px 10px rgba(255, 255, 255, 0.2) inset;
+}
+/* ИНФОРМАЦИЯ СПРАВА В ПРОФИЛЕ  */
+:where(.overlay_c0bea0){
+    background: rgba(145, 145, 145, 0.1);
+    border: var(--border-main) !important;
+}
+/* ЗАКРЕПЫ  */
+.visual-refresh .messagesPopoutWrap__45690, .visual-refresh .messageGroupWrapper__45690{
+    background: rgba(120, 120, 120, 0.1);
+    backdrop-filter: blur(10px)
+}
+
+.visual-refresh .file__0ccae{
+   background: rgba(0, 0, 0, 0.3); 
+}
+.visual-refresh .jumpButton__45690{
+    background: rgba(0, 0, 0, 0.35);
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.hoverButtonGroup__06ab4{
+    background: rgba(255, 255, 255, 0.1);
+    border: var(--border-main) !important;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.visual-refresh .header__45690{
+    background: rgba(0, 0, 0, 0.3);
+    border-bottom: var(--border-main) !important;
 }
